@@ -1,11 +1,25 @@
-body > .scaffold > :is(top-nav, navigation-rail, side-nav, footer),
-main > :not(:last-child),
-main > :last-child > navigation-tree,
-main .toc-container {
-  display: none;
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
 }
 
-main > :last-child {
-  margin-top: min(10vmax, 10rem);
-  margin-bottom: min(10vmax, 10rem);
+div {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+#numclicks {
+  font-size: 48px;
+  font-weight: bold;
+  color: #007bff;
+  margin: 20px 0;
+}
+
+#update {
+  font-size: 16px;
+  color: #555;
+  margin-top: 10px;
 }
